@@ -5,7 +5,7 @@ Uma biblioteca projetada para validar números de CPF usando o algoritimo de Luh
 ## Instalação
 
 * Requer Node.JS e NPM. Se não tiver vá para : 
-    - [NODE] + [NPM] (https://nodejs.org/en/download/)
+    - [NODE](https://nodejs.org/en/download/) + [NPM](https://nodejs.org/en/download/)
 
 * No terminal, vá para a pasta onde você deseja usar a biblioteca e digite:
     > $ npm install la-card-validator
