@@ -23,7 +23,7 @@ Uma biblioteca projetada para validar números de CPF usando o algoritimo de Luh
 
 ## Tecnologias
 
-* HTML
+* HTML5
 * CSS3
 * JAVASCRIPT
 * NPM
