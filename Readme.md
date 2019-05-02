@@ -13,12 +13,10 @@ Uma biblioteca projetada para validar números de CPF usando o algoritimo de Luh
 
 ## Uso 
 
->$ node
-
-> const indexCpf = require("la-validador-cpf")
-> cpf("39784483866") 
-
-> //true
+```javascript
+const validador = require("la-validador-cpf");
+validator.cpf(39784483866) // true
+```
 
 
 ## Tecnologias
