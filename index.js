@@ -1,4 +1,4 @@
-function cpfValidator(cpfString) {
+function cpf(cpfString) {
     let cpf = cpfString.split('');
     if (cpf.length < 11 || cpf.length > 11 || cpf.every(digit => digit === cpf[0])) {
         return false;
@@ -30,4 +30,4 @@ function getDigits(cpf, secondDigit) {
     return digit;
 }
 
-exports.cpfValidator = cpfValidator;
+exports.cpf = cpf;

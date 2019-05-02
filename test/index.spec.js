@@ -1,7 +1,7 @@
 const chai = require ("chai");
 const expect = chai.expect;
-const indexCpf = require("../index.js");
-const cpf = indexCpf.cpfValidator;
+const validator = require("../");
+const { cpf } = validator;
 
 describe ("retornar o primeiro digito como resultado da conta", () => {
     it ("retornar 4", () => {
