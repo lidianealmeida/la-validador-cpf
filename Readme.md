@@ -34,7 +34,7 @@ Uma biblioteca projetada para validar números de CPF usando o algoritimo de Luh
 
 ## Roteiro
 
-### versão 3.0.0 (prevista para xx de 2019) 
+### versão 3.0.0 (prevista para julho de 2019) 
 * Implementação de verificação mais abrangente, incluindo data de nascimento, status da situação cadastral (regular, pendente de regularização, suspenso, cancelado por multiplicidade, titular falecido, cancelamento por encerramento de espólio, nulo) e código de controle de comprovante da verificação.
 
 ### versão 2.0.0 (prevista para junho de 2019) 
