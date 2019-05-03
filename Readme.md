@@ -1,15 +1,17 @@
 # Validador de CPF
 
-Uma biblioteca projetada para validar números de CPF usando o algoritimo de Luhn.
+Uma biblioteca projetada para validar números de CPF usando o algoritmo de Luhn.
 
 ## Instalação
 
-* Requer Node.JS e NPM. Se não tiver vá para : 
+* Requer Node.JS e NPM. Caso não tenha acesse: 
+
     - [NODE](https://nodejs.org/en/download/) + [NPM](https://nodejs.org/en/download/)
 
-* No terminal, vá para a pasta onde você deseja usar a biblioteca e digite:
-    > $ npm install la-card-validator
-
+* No terminal, siga para a pasta onde você deseja usar a biblioteca e digite:
+```javascript
+$ npm install la-card-validator
+```
 
 ## Uso 
 
@@ -21,21 +23,21 @@ validator.cpf(39784483866) // true
 
 ## Tecnologias
 
-* HTML5
+* HTML
 * CSS3
 * JAVASCRIPT
 * NPM
 * MOCHA
-* CHAi
+* CHAI
 * NYC
 * ESLINT
 
 ## Roteiro
 
-### versão 3.0.0 (prevista para julho de 2019) 
-* Implementação de verificação mais abrangente, incluindo data de nascimento, status da situação cadastral (regular, pendente de regularização, suspenso, cancelado por multiplicidade, titular falecido, cancelamento por encerramento de espólio, nulo) e código de controle de comprovante da verificação.
+### versão 3.0.0 (prevista para agosto de 2019) 
+* Implementação de verificação mais abrangente, incluindo data de nascimento, status da situação cadastral (como regular, pendente de regularização, suspenso, cancelado por multiplicidade, titular falecido, cancelamento por encerramento de espólio, nulo) e código de controle de comprovante da verificação.
 
-### versão 2.0.0 (prevista para junho de 2019) 
+### versão 2.0.0 (prevista para julho de 2019) 
 * Identificação de quais são os digítos verificadores e a data e hora da consulta realizada.
 
 ### versão 1.0.0 (liberado) 
