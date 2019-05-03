@@ -10,7 +10,7 @@ Uma biblioteca projetada para validar números de CPF usando o algoritmo de Luhn
 
 * No terminal, siga para a pasta onde você deseja usar a biblioteca e digite:
 ```javascript
-$ npm install card-validator-la
+$ npm install validador-cpf-la
 ```
 
 ## Uso 
