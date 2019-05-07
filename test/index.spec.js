@@ -1,6 +1,6 @@
 const chai = require ("chai");
 const expect = chai.expect;
-const validator = require("../");
+const validator = require("../index.js");
 const { cpf } = validator;
 
 describe ("retornar o primeiro digito como resultado da conta", () => {
