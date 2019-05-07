@@ -17,7 +17,7 @@ $ npm install validador-cpf-la
 
 ```javascript
 const validador = require("validador-cpf-la");
-cpf.cpf("87259688742") // true
+validador.cpf("87259688742") // true
 ```
 
 
